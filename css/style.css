@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+
+    background-color: rgb(218, 213, 213);
+}
+
+.nav-flex{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    background-color:rgba(36, 31, 31, 0.87);
+    height: auto;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+}
+.nav-flex .nav{
+    color: white;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-flex .nav::before{
+   content: url(../images/apple.png);
+   padding-right: 1.5rem;
+   vertical-align: middle;
+  
+
+}
+.nav-flex .nav1{
+    color: white;
+    display: block;
+    margin: 5px;
+    padding-right: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-flex .nav11{
+    color: white;
+    display: block;
+    margin: 5px;
+}
+.nav-flex .nav2::before{
+    content: url(../images/box.png);
+
+}
+.nav-flex .nav3::before{
+    content: url(../images/serach.png);
+   
+    padding-right: 2.5rem;
+    vertical-align: middle;
+}
+#body_flex{
+    background-color: white;
+    display: block;
+    align-items: center;
+   
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    border-radius: 3px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    box-shadow: 2px 0px 2px 0px rgb(116, 116, 117);
+    padding-top: 70px;
+    padding-right: 10%;
+    padding-left: 10%;
+
+    
+}
+#body_flex a:link, a:visited{
+    color:blue;
+}
+.rem_steve{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight:bold;
+    line-height: 36px;
+}
+rem_steve_txt{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.other_wishes{
+    width: 75%;
+    text-align: left;
+}
+.other_wishes .author{
+    color: rgb(133, 134, 134);
+}
+.footer{
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+a:link{
+color: white;
+text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+    }
+ .nav_images{
+    padding-right: 1.5rem;
+    vertical-align: bottom;
+ }
+ .nav_images2{
+    
+    vertical-align: bottom;
+ }
+ .steve_vot{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    font-stretch: condensed;
+
+ }
+ 
